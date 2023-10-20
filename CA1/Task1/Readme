@@ -1,0 +1,17 @@
+1. <form>: This is the HTML element that defines a form to collect the users input.
+
+2. action: This attribute specifies the URL where the form data will be sent when submitted. 
+For our form the action is register.
+
+3. method: This attribute specifies the HTTP method used to send the form data to the server.
+
+4. <label>: These elements are used to provide labels for the form fields. They are associated with the input fields using the for attribute.
+
+5. input>: These are the input fields where users can enter their information. Each input field has various attributes:
+
+--> type: This attribute specifies the type of input field. In this example, we use "text" for the name, "email" for the email, and "password" for the password.
+--> id: This is a unique identifier for the input field, which is associated with the label using the for attribute.
+--> name: This attribute defines the name for the form field. It is used to identify the field when processing the form data on the server.
+--> required: This attribute is used to indicate that the field must be filled out before the form can be submitted. For the email field, it also enforces a valid email format.
+
+6. <input type="submit">: This is a submit button that, when we clicked, triggers the form submission.
