@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Registration</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form action="register" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <!-- The "required" attribute ensures that the input field must be filled out before submitting the form. -->
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <!-- The "required" attribute also works for input type="email," and it ensures a valid email format is entered. -->
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <!-- The "type" attribute with "password" masks the entered text for security. The "required" attribute makes it mandatory. -->
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

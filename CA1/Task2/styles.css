@@ -1,0 +1,28 @@
+/* Resetting default list styles */
+.horizontal-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for list items */
+.horizontal-menu li {
+    display: inline; /* Display menu items inline */
+    margin-right: 15px; /* Add some space between menu items */
+}
+
+/* Style for anchor links inside list items */
+.horizontal-menu li a {
+    text-decoration: none; /* Remove underlines from links */
+    padding: 10px 15px; /* Add padding to create clickable area */
+    border: 1px solid #333; /* Add a border for a button-like appearance */
+    background-color: #555; /* Set the default background color */
+    color: #fff; /* Set the text color to white */
+    border-radius: 5px; /* Add rounded corners to the buttons */
+    transition: background-color 0.3s; /* Create a smooth transition effect */
+}
+
+/* Hover effect to change background color on hover */
+.horizontal-menu li a:hover {
+    background-color: #ff9900; /* Change the background color on hover */
+}
